@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/alert"
+        android:title="notification"
+        android:icon="@drawable/ic_notifications_white_18dp"
+        app:showAsAction="always"></item>
+
+    <item
+        android:id="@+id/star"
+        android:title="list"
+        android:icon="@drawable/ic_star_rate_white_18dp"
+        app:showAsAction="always"></item>
+
+    <item
+        android:id="@+id/Bulletin"
+        android:title="Bulletin"
+        app:showAsAction="never"></item>
+
+    <item
+        android:id="@+id/recommend"
+        android:title="Recommend this app"
+        app:showAsAction="never"></item>
+
+    <item
+        android:id="@+id/share"
+        android:title="Share App via Bluetooth"
+        app:showAsAction="never"></item>
+
+    <item
+        android:id="@+id/Terms"
+        android:title="Terms and Condition"
+        app:showAsAction="never"></item>
+
+
+</menu>
